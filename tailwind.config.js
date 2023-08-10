@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
@@ -10,9 +10,9 @@ module.exports = {
         sans: ["'Alumni Sans Pinstripe'", 'sans-serif'],
       },
       colors: {
-        primary: '#fdf7f2',
-        'primary-pink': '#f4d2eb',
-        'primary-green': '#52784f',
+        'dark-base': '#181A1F',
+        'dark-secondary': '#25282F',
+        'dark-primary': '#272A32',
       },
     },
   },

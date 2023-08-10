@@ -1,8 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Syne } from 'next/font/google';
+import Container from '../components/Container';
 
-const inter = Inter({ subsets: ['latin'] });
+const syne = Syne({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={
+          syne.className + ' bg-dark-base p-3 lg:p-4 w-screen h-screen'
+        }
+      >
+        <Container>{children}</Container>
+      </body>
     </html>
   );
 }
