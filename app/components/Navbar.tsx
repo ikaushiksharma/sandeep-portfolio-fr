@@ -8,7 +8,7 @@ const navLinks = ['home', 'about', 'skills', 'projects', 'contact'];
 const Navbar = (props: Props) => {
   return (
     <>
-      <nav className="hidden sticky opacity-0 sm:opacity-100 lg:flex items-center py-4 justify-between top-0 w-full xxl:px-16 xl:px-16 md:px-12 sm:px-2 px-4 left-0 backdrop-blur-md">
+      <nav className="hidden sticky opacity-0 sm:opacity-100 lg:flex items-center py-4 justify-between top-0 w-full 2xl:px-16 xl:px-16 md:px-12 sm:px-2 px-4 left-0 backdrop-blur-md">
         <h1 className="font-semibold text-4xl uppercase">Sandeep</h1>
         <ul className="flex items-center  uppercase justify-evenly sm:gap-x-2 md:gap-x-3 lg:gap-x-4 xl:gap-x-6">
           {navLinks.map((link, idx) => (
