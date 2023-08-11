@@ -19,13 +19,14 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={
-          syne.className + ' vsc-initialized bg-dark-base p-3 lg:p-4 w-screen min-h-screen'
+          syne.className +
+          ' vsc-initialized bg-dark-base p-3 lg:p-4 w-screen min-h-screen'
         }
       >
         <div className="border w-full h-full border-white">
           <Container>{children}</Container>
         </div>
-        </body>
+      </body>
     </html>
   );
 }

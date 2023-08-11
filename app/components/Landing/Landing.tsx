@@ -7,7 +7,10 @@ const Landing = (props: Props) => {
   return (
     <>
       <Navbar />
-      <div id='home' className="lg:min-h-[90vh] flex flex-col justify-center items-center h-full w-full 2xl:px-16 xl:px-16 md:px-12 sm:px-2 px-4">
+      <div
+        id="home"
+        className="lg:min-h-[90vh] flex flex-col justify-center items-center h-full w-full 2xl:px-16 xl:px-16 md:px-12 sm:px-2 px-4"
+      >
         <div className="flex h-full flex-col">
           <div className="flex h-full py-12 flex-col lg:flex-row max-lg:items-center justify-evenly">
             <div className="flex flex-1 py-4 flex-col">
