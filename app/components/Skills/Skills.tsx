@@ -7,10 +7,10 @@ type Props = {};
 
 const Skills = (props: Props) => {
   return (
-    <div className="lg:min-h-[85vh] flex flex-col justify-center h-full w-full 2xl:px-16 xl:px-16 md:px-12 sm:px-2 px-4">
+    <div id='skills' className="lg:min-h-[85vh] flex flex-col justify-center h-full w-full 2xl:px-16 xl:px-16 md:px-12 sm:px-2 px-4">
       <div className="flex h-full flex-col">
         <div className="flex h-full py-6 lg:py-12 flex-col lg:flex-row max-lg:items-center justify-evenly">
-          <div className="flex py-4 min-h-full px-4 flex-col">
+          <div className="flex py-4 max-w-[420px] min-h-full px-4 flex-col">
             <h1 className="text-xl uppercase font-extrabold lg:text-2xl">
               skills
             </h1>

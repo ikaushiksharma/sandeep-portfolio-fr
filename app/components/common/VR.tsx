@@ -1,5 +1,5 @@
 type Props = {
-  classes: string;
+  classes?: string;
 };
 
 const VR = ({ classes }: Props) => {
