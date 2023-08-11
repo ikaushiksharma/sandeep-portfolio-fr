@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import HR from './HR';
-import Image from 'next/image';
+import HR from '../common/HR';
 type Props = {};
 
 const Landing = (props: Props) => {
@@ -64,7 +63,7 @@ const Landing = (props: Props) => {
             </div>
           </div>
         </div>
-        <HR classes="" />
+        <HR classes="w-full" />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Syne } from 'next/font/google';
-import Container from './components/Container';
+import Container from './components/common/Container';
 
 const syne = Syne({ subsets: ['latin'] });
 

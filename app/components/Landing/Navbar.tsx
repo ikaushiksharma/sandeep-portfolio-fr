@@ -1,7 +1,7 @@
 import React from 'react';
 import MobileNav from './MobileNav';
 import Link from 'next/link';
-import HR from './HR';
+import HR from '../common/HR';
 
 type Props = {};
 const navLinks = ['home', 'about', 'skills', 'projects', 'contact'];
@@ -20,7 +20,7 @@ const Navbar = (props: Props) => {
             </li>
           ))}
         </ul>
-        <HR classes="absolute bottom-0" />
+        <HR classes="absolute bottom-0 w-[90%]" />
       </nav>
       <MobileNav />
     </>

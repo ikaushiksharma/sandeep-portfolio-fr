@@ -5,7 +5,7 @@ type Props = {
 };
 
 const HR = ({ classes = '' }: Props) => {
-  return <div className={classes + ' mx-auto w-[90%] h-0.5 bg-white'}></div>;
+  return <div className={'mx-auto border border-white ' + classes}></div>;
 };
 
 export default HR;
