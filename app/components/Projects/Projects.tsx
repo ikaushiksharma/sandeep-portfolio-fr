@@ -14,7 +14,7 @@ const Projects = (props: Props) => {
     >
       <div className="flex flex-col">
         <div className="flex py-6 lg:py-12 flex-col lg:flex-row max-lg:items-center justify-evenly">
-          <div className="h-full flex  gap-y-2 my-4 py-4 px-4 flex-col">
+          <div className="flex py-4 max-w-[420px] min-h-full px-4 flex-col">
             <h1 className="text-xl uppercase font-extrabold lg:text-2xl">
               featured works
             </h1>
