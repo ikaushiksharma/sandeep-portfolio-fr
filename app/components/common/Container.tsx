@@ -11,7 +11,7 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 
 const Container = ({ children }: Props) => {
   return (
-    <main className="flex flex-col border text-white border-white w-full h-full bg-dark-base">
+    <main className="flex flex-col border lg:mt-[10vh] text-white border-white border-t-0 w-full h-full bg-dark-base">
       {children}
       <AnimatedCursor
         color="256,256,256"
