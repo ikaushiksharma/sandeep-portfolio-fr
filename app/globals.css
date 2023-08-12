@@ -15,3 +15,9 @@
 div {
   /* border: 1px solid red; */
 }
+.bgNoise {
+  background: #25282f url('http://assets.iceable.com/img/noise-transparent.png');
+}
+.bgSquare {
+  background: #181a1f url('../public/squares.svg');
+}

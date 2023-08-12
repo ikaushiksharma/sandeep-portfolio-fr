@@ -8,7 +8,7 @@ type Props = {
 
 const AboutCard = ({ title, desc, tags }: Props) => {
   return (
-    <div className="w-full xl:w-[600px] text-2xl space-y-4 rounded-xl xl:min-h-[250px] bg-dark-secondary px-6 py-8">
+    <div className="w-full bgNoise xl:w-[600px] text-2xl space-y-4 rounded-xl xl:min-h-[250px] px-6 py-8">
       <h3>{title}</h3>
       <p className="text-xs">{desc}</p>
       <div className="flex gap-2">
