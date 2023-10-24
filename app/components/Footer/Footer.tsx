@@ -23,7 +23,7 @@ const Footer = (props: Props) => {
             </ul>
           </div>
           <div className="flex md:px-12 gap-y-4 max-md:pb-4 capitalize text-base flex-col">
-            <h4 className="uppercase max-md:text-center">services</h4>
+            <h4 className="uppercase max-md:  text-center">services</h4>
             <ul className="max-md:flex flex-col max-md:gap-x-3">
               <div className="max-md:flex justify-evenly">
                 <li>design</li>

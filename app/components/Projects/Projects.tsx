@@ -3,6 +3,8 @@ import HR from '../common/HR';
 import VR from '../common/VR';
 import Button from '../common/Button';
 import ProjectCard from './ProjectCard';
+import ProjectSlider from './ProjectSlider';
+import { projects } from '@/lib/utils/data';
 
 type Props = {};
 
@@ -28,29 +30,29 @@ const Projects = (props: Props) => {
           </div>
           <VR />
           <div className="flex-1">
-            <div className="flex relative gap-y-10 flex-col h-full justify-center">
+            <div className="flex relative gap-y-4 md:gap-y-10 flex-col h-full justify-center">
               <div className="w-full pb-4 h-full">
-                <ProjectCard />
+                <ProjectCard
+                  title={projects[0].title}
+                  desc={projects[0].desc}
+                  playStore={projects[0].playStore}
+                  ios={projects[0].ios}
+                />
               </div>
               <HR classes="w-full" />
-              <div className="flex flex-row flex-auto">
-                <div className="w-1/2 h-full">
+              <div>
+                <ProjectSlider />
+              </div>
+              <HR classes="w-full" />
+              <div>
+                <ProjectSlider />
+                {/* <div className="w-1/2 h-full">
                   <ProjectCard />
                 </div>
                 <VR />
                 <div className="w-1/2 h-full">
                   <ProjectCard />
-                </div>
-              </div>
-              <HR classes="w-full" />
-              <div className="flex flex-row flex-auto">
-                <div className="w-1/2 h-full">
-                  <ProjectCard />
-                </div>
-                <VR />
-                <div className="w-1/2 h-full">
-                  <ProjectCard />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

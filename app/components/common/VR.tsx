@@ -4,7 +4,7 @@ type Props = {
 
 const VR = ({ classes }: Props) => {
   return (
-    <div className={'max-lg:hidden border mx-10 border-white ' + classes} />
+    <div className={'max-lg:hidden border border-white ' + classes} />
   );
 };
 

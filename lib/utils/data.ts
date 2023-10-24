@@ -44,3 +44,60 @@ export const skills = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: 'Exponential',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'Yoodle',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'Performance 360',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'Interescolar Ambiental',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'NearBi',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'Blink',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'JK SPL',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'Joy Story Foundation',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+  {
+    title: 'Sintex Hamesha',
+    desc: 'it is a fullflashed trading and managing platform for trades, brokers and Sub-brokers where brokerage margin and script QTY and a lot more feature which helps broker and sub-broker to easily got all the reports and details quickly and correctly',
+    playStore: '',
+    ios: '',
+  },
+];
