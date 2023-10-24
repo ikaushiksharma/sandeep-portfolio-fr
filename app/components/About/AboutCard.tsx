@@ -2,26 +2,36 @@ import React from 'react';
 
 type Props = {
   title: string;
-  desc: string;
-  tags: Array<string>;
+  desc?: string;
+  list: Array<{ title: string; subtitle: string }>;
 };
 
-const AboutCard = ({ title, desc, tags }: Props) => {
+const AboutCard = ({ title, desc, list }: Props) => {
   return (
-    <div className="w-full bgNoise xl:w-[600px] text-2xl space-y-4 rounded-xl xl:min-h-[250px] px-6 py-8">
+    <div className="w-full bgNoise xl:w-[500px] text-2xl space-y-4 rounded-xl xl:min-h-[250px] px-6 py-8">
       <h3>{title}</h3>
-      <p className="text-xs">{desc}</p>
-      <div className="flex gap-2">
-        {tags && tags.map((tag, id) => <Tag name={tag} key={id} />)}
-      </div>
+      {desc && <p className="text-base">{desc}</p>}
+      <ul className="flex flex-col gap-2 list-disc">
+        {list &&
+          list.map(({ title, subtitle }, id) => (
+            <Tag title={title} subtitle={subtitle} key={id} />
+          ))}
+      </ul>
     </div>
   );
 };
 
 export default AboutCard;
 
-const Tag = ({ name }: { name: string }) => (
-  <div className="rounded-full border capitalize text-xs px-2 py-1 cursor-pointer">
-    {name}
+const Tag = ({ title, subtitle }: { title: string; subtitle: string }) => (
+  <div className="text-white capitalize text-sm px-2 py-1 cursor-pointer">
+    <li>
+      {title}
+      <br />
+      <div className="text-gray-300 mix-blend-luminosity">
+        {subtitle &&
+          subtitle.split('{break}').map((item, id) => <p key={id}>{item}</p>)}
+      </div>
+    </li>
   </div>
 );

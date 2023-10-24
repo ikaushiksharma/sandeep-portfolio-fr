@@ -2,6 +2,7 @@ import React from 'react';
 import HR from '../common/HR';
 import AboutCard from './AboutCard';
 import VR from '../common/VR';
+import { experience, education } from '@/lib/utils/data';
 
 type Props = {};
 
@@ -15,7 +16,7 @@ const About = (props: Props) => {
         <div className="flex h-full py-6 lg:py-12 flex-col lg:flex-row max-lg:items-center justify-evenly">
           <div className="flex py-4 max-w-[420px] min-h-full px-4 flex-col">
             <h1 className="text-xl uppercase font-extrabold lg:text-2xl">
-              About us
+              About Me
             </h1>
             <p className="text-base lg:text-xl">
               “Passion Unveiled, Creativity Explored.”
@@ -64,9 +65,9 @@ const About = (props: Props) => {
                   </svg>
                 </div>
                 <AboutCard
-                  title="Art Direction"
-                  desc="Art direction is the process of bringing together all of the creative elements of a project to create a cohesive and visually stunning end product. I work with clients to develop a concept and bring it to life through art direction. I believe that attention to detail and a clear vision are key to creating truly memorable designs."
-                  tags={['concept design', 'brand identity']}
+                  title="Experience"
+                  desc="Sr. ReactJS and React Native Developer"
+                  list={experience}
                 />
               </div>
               <div className="place-self-end relative w-full xl:w-fit">
@@ -85,11 +86,7 @@ const About = (props: Props) => {
                     />
                   </svg>
                 </div>
-                <AboutCard
-                  title="Art Direction"
-                  desc="Art direction is the process of bringing together all of the creative elements of a project to create a cohesive and visually stunning end product. I work with clients to develop a concept and bring it to life through art direction. I believe that attention to detail and a clear vision are key to creating truly memorable designs."
-                  tags={['concept design', 'brand identity']}
-                />
+                <AboutCard title="Education" list={education} />
               </div>
             </div>
           </div>

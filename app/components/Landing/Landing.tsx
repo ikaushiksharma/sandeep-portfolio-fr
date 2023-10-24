@@ -18,9 +18,9 @@ const Landing = (props: Props) => {
                 Empowering Innovations: Crafting Seamless Android Experiences
               </h1>
               <p className="text-base pt-6 lg:text-2xl">
-                I&apos;m a dedicated Android developer with a passion for
+                I&apos;m a dedicated React Native developer with a passion for
                 creating seamless user experiences and cutting-edge mobile
-                applications. With a strong foundation in Java and Kotlin.
+                applications. With a strong foundation in Java and React Library.
               </p>
             </div>
             <div className="lg:pl-12 h-full">

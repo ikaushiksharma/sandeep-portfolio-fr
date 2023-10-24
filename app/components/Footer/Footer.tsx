@@ -14,7 +14,7 @@ const Footer = (props: Props) => {
           </h1>
           <VR classes="h-[30vh]" />
           <div className="flex  md:px-12 max-md:py-10 gap-y-4 capitalize text-base flex-col">
-            <h4 className="uppercase">Menu</h4>
+            <h4 className="uppercase max-md:text-center">Menu</h4>
             <ul className="max-md:flex justify-evenly max-md:flex-wrap max-md:space-x-3">
               <li>about</li>
               <li>skills</li>
@@ -23,7 +23,7 @@ const Footer = (props: Props) => {
             </ul>
           </div>
           <div className="flex md:px-12 gap-y-4 max-md:pb-4 capitalize text-base flex-col">
-            <h4 className="uppercase">services</h4>
+            <h4 className="uppercase max-md:text-center">services</h4>
             <ul className="max-md:flex flex-col max-md:gap-x-3">
               <div className="max-md:flex justify-evenly">
                 <li>design</li>
